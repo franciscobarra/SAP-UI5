@@ -1,0 +1,186 @@
+p.led {
+ font-family: "Verdana";
+letter-spacing: 0px;
+}
+#chart-placeholder .jqplot-point-label {
+  color: #FFFAFA;
+ font-size: 14px;
+}
+
+#chart-placeholder{
+  height:400px; 
+  width:400px;
+}
+
+.oMatrixTable {
+    margin: 0 auto;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.statusLed{  
+	margin-left: 135px;
+	 margin-bottom: -25px;	
+}
+.oMatrixHead {
+    margin: 0 auto;
+    margin-left: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.oMatrixSelection {
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+.oTable{
+	margin-left: 42px;
+	margin-top: 10px;
+}
+
+.oMatrixButtonSearch {
+    margin-top: 10px;
+}
+#wrapper {
+    width: 500px;
+    height: auto;
+    margin: auto 0 auto;
+    margin-top: -170px;
+}
+.top {
+     margin: auto;
+   // background-color: yellow;
+    height: 200px;
+    width: 200px;
+}
+#wrapper-only-one {
+    width: 500px;
+    height: auto;
+    margin: auto 0 auto;
+}
+.top-only-one {
+ 	
+     margin: auto;
+     margin-top: -340px;
+   // background-color: yellow;
+    height: 200px;
+    width: 200px;
+}
+#bottom-wrapper {
+    margin: 10px 0 auto 27px;
+    width: 500px;
+    height: auto;
+
+}
+.rail_left {
+    margin: 40px 16px 0 0;
+    float: left;
+    height: 150px;
+    width: 150px;
+//border: 0.5px solid black;
+ //   background-color: red;
+}
+.rail_center {
+    margin: 40px 15px 0 0;
+    float: left;
+    height: 150px;
+    width: 150px;
+  //  background-color: blue;
+}
+.rail_right {
+    margin:40px 18px 0 0;
+    float: right;
+    height: 150px;
+    width: 150px;
+//    background-color: green;
+}
+.rail_left_bot {
+    margin: 10px 16px 0 0;
+    float: left;
+    height: 150px;
+    width: 150px;
+//    background-color: red;
+}
+.rail_center_bot {
+    margin:80px 80px 0 0;
+   margin-top: 10px;
+    float: left;
+    height: 150px;
+    width: 150px;
+  //  background-color: blue;
+}
+.rail_right_bot {
+    margin:10px 18px 0 0;
+    float: right;
+    height: 150px;
+    width: 150px;
+    //background-color: green;
+}
+.rail_center_ult_bot {
+    margin:20px 15px 0 0;
+    float: left;
+     margin-left: 140px;
+
+}
+.clear {
+    clear: both;
+}
+.lineVertical{
+  width: 0px; /* Use only border style */
+  height: 100%;
+  float: left; 
+  border: 1px inset; /* This is default border style for <hr> tag */
+
+}
+hr.line-vertical-env-1-isIE
+{  
+   width: 0px;
+  height: 94px; 
+   margin-right: -15%;
+   margin-top: -9%;
+} 
+hr.line-horzontal-env-1-isIE
+{
+   width: 100%;
+   margin-top: -58%;
+   margin-left: 72%;
+} 
+hr.line-vertical-env-2-isIE
+{  
+   width: 0px;
+   height: 110px; 
+   margin-right: 9%;
+} 
+hr.line-horzontal-env-2-isIE
+{
+   width: 200px;
+   margin-top: -55px;
+   margin-left: 58%;
+}
+hr.line-vertical-env-1-isChrome
+{  
+   width: 0px;
+   height: 96px; 
+   margin-right: 40%;
+   margin-top: -9%;
+} 
+hr.line-horzontal-env-1-isChrome
+{
+   width: 100%;
+   margin-top: -58%;
+   margin-left: 72%;
+} 
+hr.line-vertical-env-2-isChrome
+{  
+   width: 0px;
+   height: 110px; 
+   margin-right: 15%;
+} 
+hr.line-horzontal-env-2-isChrome
+{
+   width: 200px;
+   margin-top: -55px;
+   margin-left: 58%;
+} 
+

@@ -1,0 +1,28 @@
+.sapUiBusy {
+    height: 5px;
+    width: 100% !important;
+    -moz-background-size: 40% 5px !important;
+    -webkit-background-size: 40% 5px !important;
+    background-size: 40% 5px !important;
+    background-image: -moz-linear-gradient(left, rgba(153, 0, 0, 0), #990000
+        30%, #990000 70%, rgba(153, 0, 0, 0)) !important;
+    background-image: -webkit-linear-gradient(left, rgba(153, 0, 0, 0),
+        #990000 30%, #990000 70%, rgba(153, 0, 0, 0)) !important;
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(153, 0,
+        0, 0)), color-stop(0.3, #990000), color-stop(0.7, #990000),
+        color-stop(1, rgba(153, 0, 0, 0))) !important;
+    background-image: linear-gradient(left, rgba(153, 0, 0, 0), #990000 30%,
+        #990000 70%, rgba(153, 0, 0, 0));
+    background-repeat: no-repeat !important;
+    -webkit-animation: slide 1.5s linear infinite !important;
+    -moz-animation: slide 1.5s linear animation:slide 1.5s linear infinite !important;
+}
+.statusLed {
+   width:20px;
+  height:20px;
+}
+
+.oMatrixElements {
+   margin: auto;	
+}
+

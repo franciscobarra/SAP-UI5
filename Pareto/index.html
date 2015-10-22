@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.jqplot.min.css">
+	
+	<script src="/sapui5/v1_2_68/resources/sap-ui-core.js"
+		id="sap-ui-bootstrap"
+		data-sap-ui-libs="sap.ui.commons, sap.ui.table"
+		data-sap-ui-theme="sap_bluecrystal"				
+		data-sap-ui-modules="sap.ui.commons.MessageBox">
+	</script>
+	
+
+		<script type="text/javascript" src="libs/js/jquery.jqplot2.js"></script>
+		<script type="text/javascript" src="libs/js/excanvas.js"></script>
+		<script type="text/javascript" src="libs/js/jqplot.canvasTextRenderer.min.js"></script>
+		<script type="text/javascript" src="libs/js/jqplot.canvasOverlay.min.js"></script>
+		<script type="text/javascript" src="libs/js/jqplot.canvasAxisTickRenderer.min.js"></script>
+		<script type="text/javascript" src="libs/js/jqplot.pointLabels.min.js"></script>
+		<script type="text/javascript" src="libs/js/jqplot.barRenderer.min.js"></script>
+		<script type="text/javascript" src="libs/js/jqplot.categoryAxisRenderer.min.js"></script>
+		<script type="text/javascript" src="libs/js/jqplot.highlighter.min.js"></script>
+		<script type="text/javascript" src="libs/js/jqplot.enhancedLegendRenderer.min.js"></script>
+		<script type="text/javascript" src="libs/js/require.min.js"></script>
+
+	<script>
+		require.config({
+			text: 'ReporteExcel',
+			baseUrl: '/XMII/CM/SAPUI5/UI5/WebContent/Site/Pareto/',
+			paths: {
+				underscore: 'libs/js/Excel/underscore-min',
+				JSZip: 'libs/js/Excel/jszip.min'
+			},
+			shim: {
+				'underscore': {
+					exports: '_'
+				},
+				'JSZip': {
+					exports: 'JSZip'
+				}
+			}
+		});
+		
+		var oTable;
+		var aData = [{}];
+		var aSearch = [];
+		
+		sap.ui.getCore().AppContext = new Object();
+		sap.ui.getCore().AppContext.Data = [];
+		
+		sap.ui.localResources("controlador");
+		var view = sap.ui.view({id:"idinicio1", viewName:"controlador.inicio", type:sap.ui.core.mvc.ViewType.JS});
+		view.placeAt("content");
+		
+		var SAP_UI = sap.ui.controller("controlador.inicio");
+	</script>
+
+</head>
+<body class="sapUiBody" role="application">
+	<div id="content"></div>
+</body>
+</html>
+
+

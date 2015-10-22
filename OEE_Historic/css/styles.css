@@ -1,0 +1,84 @@
+#chart-OEETeorico .jqplot-table-legend{
+	font-size: 14px;
+}
+#chart-OEETeorico .jqplot-point-label {
+  color: #000000;
+  font-size: 14px;
+}
+#chart-OEEVariable .jqplot-table-legend{
+	font-size: 14px;
+}
+#chart-OEEVariable .jqplot-point-label {
+  color: #000000;
+  font-size: 11px;
+}
+.oTable{
+	margin-left: 42px;
+	margin-top: 10px;
+}
+#chart-OEETeorico{
+	margin-left: -10px;	
+}
+#chart-OEEVariable{
+	margin-top: 10px; 
+	margin-left: -10px;
+}
+.matrix-center {
+	margin: 0 auto;
+}
+
+.chart {height:400px; width:700px; }
+
+x-bar {
+    float:left;
+    width:200px;
+}
+#controls {
+    width:400px;
+    height:200px;
+    float:left;
+}
+#controls div.label {
+    clear:both;
+    float:left;
+}
+#controls .control {
+    float:right;
+}
+#controls input {
+    text-align:right;
+}
+.element {
+    position: absolute;
+    visibility: visible;
+    z-index: 10;
+    display: block;
+    top: 94px;
+    left: 346px;
+}
+.oMatrixHead {
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.oMatrixSelections {
+    margin-left: 10px;
+	margin-top: 20px;
+}
+.oMatrixDateSelection {
+	margin-left: 10px;
+	margin-top: 2px;
+}
+.oMatrixButton {
+	margin-top: 10px;
+}
+.oMatrixGraphic {
+	margin: 0 auto;
+	margin-left: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
