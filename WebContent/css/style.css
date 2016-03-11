@@ -1,0 +1,131 @@
+#mySplitApp--Master{
+	display : none;
+}
+.textSection {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+#SectionColor_R-title{
+	color : red;
+}
+#SectionColor_Z-title{
+	color : blue;
+}
+#SectionColor_M-title{
+	color : purple;
+}
+#SectionColor_N-title{
+	color : orange;
+}
+#SectionColor_V-title{
+	color : green;
+}
+.sapUiGlobalBackgroundColor .sapUiGlobalBackgroundColor:not(.sapUiGlobalBackgroundColorForce){
+    background-color: #FFFFFF; 
+}
+.sapMSwtCont {
+    padding: 0.5rem 0 0.5rem 1.0rem;
+}
+.vBox{
+  padding-left: 5px;
+}
+.textQuestion{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 1.100rem;
+    font-family: Arial,Helvetica,sans-serif;
+}
+.sapMInputValHelpInner {
+    height: 1.375rem;
+    width: 3.375rem;
+    line-height: 1.375rem;
+}
+.sapMInputBaseInner {
+    color: #000000;
+    background: #ffffff;
+    border: 1px solid #bfbfbf;
+    font-size: 0.875rem;
+    font-family: Arial,Helvetica,sans-serif;
+    line-height: normal;
+    height: 1.5rem;
+    padding: 0 0.75rem;
+}
+.sapMInputBase {
+    border: none;
+    padding: 0.25rem 0;
+    height: 2rem;
+}
+.iconCategorizarPaciente{
+     margin-top: -5px;
+}
+.iconDerivarPaciente{
+	margin-top: -4px;
+}
+.iconCategorizacionHistoricaPaciente{
+	margin-top : -4px;
+}   
+.sapMOHR .sapMOHRAttr .sapMObjectAttributeTitle {
+    font-weight: bold;
+}
+.headerPatient {
+     background: rgba(0, 167, 224, 0.07);
+     border-bottom-color: red;
+}
+.sapMListTblSubCntValBlock {
+    margin-top: 10px;
+    margin-letf: -16px;  
+    display: block;
+}  
+#filterIconTab_R-text{
+	color : red;
+}
+#filterIconTab_N-text{
+	color : orange;
+}
+#filterIconTab_M-text{
+	color : rgb(223, 222, 17);
+}
+#filterIconTab_V-text{
+	color : green;
+}
+#filterIconTab_Z-text{
+	color : blue;
+}
+    
+#oBjectHeader_R{
+    border-bottom: solid;
+    border-bottom-color: red;
+    border-width: 5px;
+}
+#oBjectHeader_M{
+    border-bottom: solid;
+    border-bottom-color: yellow;
+    border-width: 5px;
+}
+#oBjectHeader_N{
+    border-bottom: solid;
+    border-bottom-color: orange;
+    border-width: 5px;
+}
+#oBjectHeader_Z{
+    border-bottom: solid;
+    border-bottom-color: blue;
+    border-width: 5px;
+}
+#oBjectHeader_V{
+    border-bottom: solid;
+    border-bottom-color: green;
+    border-width: 5px;
+}
+
+.nombreLabell{
+	height: 25px;
+	font-weight: bold;
+}
+
+.nombreFieldd{
+	 height: 45px;
+}
+
+
+}

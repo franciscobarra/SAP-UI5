@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+		
+
+		<script src="resources/sap-ui-core.js"
+				id="sap-ui-bootstrap"
+				data-sap-ui-libs="sap.m,sap.ui.commons,sap.uxap,sap.ui.core,sap.suite.ui.commons"
+				data-sap-ui-theme="sap_bluecrystal">
+		</script>
+		<!-- only load the mobile lib "sap.m" and the "sap_bluecrystal" theme -->
+		<script type="text/javascript" src="js/async.js"></script>
+		<script type="text/javascript" src="js/dexie.js"></script>
+		<script type="text/javascript" src="js/jquery.Rut.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<script>
+				const colorsTreachByOrder= ["R","N","M","V","Z"];	
+				var oTable = new sap.m.Table({});
+				var myDB;
+				var oSplitApp;
+				sap.ui.localResources("ui5_offline");
+				var app = new sap.m.App({initialPage:"idui5_offline1"});
+				var page = sap.ui.view({id:"idui5_offline1", viewName:"ui5_offline.ui5_offline", type:sap.ui.core.mvc.ViewType.JS});
+				var SAP_UI = sap.ui.controller("ui5_offline.ui5_offline");
+				app.addPage(page);
+				app.placeAt("content");
+		</script>
+
+	</head>
+	<body class="sapUiBody" role="application">
+		<div id="content"></div>
+		</body>
+</html>
