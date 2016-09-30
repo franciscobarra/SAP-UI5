@@ -3,11 +3,11 @@
  var mapForm = document.createElement("form");
     mapForm.target = "formExcel"; 
     mapForm.method = "POST";
-    mapForm.action = "http://miiforqas.arauco.cl:50000/XMII/Illuminator?";
+    mapForm.action = "http://$Server/Illuminator?";
 
     var keyParams = [];
     
-    keyParams.push({name: "QueryTemplate", value : "IPFOREST/SQLQUERYS/TransporteVentas/GUIA_DESPACHO/SQL_Combo_Filtros_GD"})
+    keyParams.push({name: "QueryTemplate", value : "$URLSQL"})
     keyParams.push({name: "Param.1", value : "1"})
 
     for (var i = 0; i < keyParams.length; i++){
